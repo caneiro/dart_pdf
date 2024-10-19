@@ -8,16 +8,20 @@ import 'examples/calendar.dart';
 import 'examples/certificate.dart';
 import 'examples/document.dart';
 import 'examples/invoice.dart';
+import 'examples/loto.dart';
+import 'examples/loto_draft.dart';
 import 'examples/report.dart';
 import 'examples/resume.dart';
 
 const examples = <Example>[
   Example('RÉSUMÉ', 'resume.dart', generateResume),
-  Example('DOCUMENT', 'document.dart', generateDocument),
+  Example('LOTO', 'loto.dart', generateLOTO),
+  Example('LOTO - Draft', 'loto_draft.dart', generateLOTOdraft),
+  // Example('DOCUMENT', 'document.dart', generateDocument),
   Example('INVOICE', 'invoice.dart', generateInvoice),
-  Example('REPORT', 'report.dart', generateReport),
-  Example('CALENDAR', 'calendar.dart', generateCalendar),
-  Example('CERTIFICATE', 'certificate.dart', generateCertificate, true),
+  // Example('REPORT', 'report.dart', generateReport),
+  // Example('CALENDAR', 'calendar.dart', generateCalendar),
+  // Example('CERTIFICATE', 'certificate.dart', generateCertificate, true),
 ];
 
 typedef LayoutCallbackWithData = Future<Uint8List> Function(
