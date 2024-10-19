@@ -4,13 +4,13 @@ import 'dart:typed_data';
 import 'package:pdf/pdf.dart';
 
 import 'data.dart';
-import 'examples/calendar.dart';
-import 'examples/certificate.dart';
-import 'examples/document.dart';
+// import 'examples/calendar.dart';
+// import 'examples/certificate.dart';
+// import 'examples/document.dart';
 import 'examples/invoice.dart';
 import 'examples/loto.dart';
 import 'examples/loto_draft.dart';
-import 'examples/report.dart';
+// import 'examples/report.dart';
 import 'examples/resume.dart';
 
 const examples = <Example>[
